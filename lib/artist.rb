@@ -24,10 +24,9 @@ def new_song(name, genre)
   
   
   def songs
-  
     song.all.select do |song|
       song.artist == self
-     end
+      end
+    end
   end
-end
 genre)
