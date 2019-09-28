@@ -3,7 +3,7 @@ class Patient
  @@all = [] 
  
  def initialize()
-  
+  save
   end
 
   def save
