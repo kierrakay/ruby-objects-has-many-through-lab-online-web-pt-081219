@@ -21,5 +21,5 @@ class Artist
     Songs.all.select do |song|
       song.artist == self
   end
-
+end
 end
