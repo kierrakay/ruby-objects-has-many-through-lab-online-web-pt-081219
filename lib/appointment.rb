@@ -1,6 +1,6 @@
 class Appointments
   
-  attr_accessor :name
+  attr_accessor :name, :patient, :date
   @@all = []
   def initialize()
     save
