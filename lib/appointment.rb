@@ -3,7 +3,7 @@ class Appointments
   
   @@all = []
   def initialize()
-    
+    save
   end
   
   def save 
