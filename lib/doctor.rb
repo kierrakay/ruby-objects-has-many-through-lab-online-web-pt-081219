@@ -27,5 +27,5 @@ class Doctor
   end 
   
   def patients(patient)
-    
+    appointments.self.collect |
     
