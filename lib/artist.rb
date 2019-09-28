@@ -22,6 +22,11 @@ def new_song(name, genre)
     self.songs.last
   end
   
+  def songs(genre)
+    song.all.select do |song|
+      song.artist == self
+      end
+    end
   end
 
 
