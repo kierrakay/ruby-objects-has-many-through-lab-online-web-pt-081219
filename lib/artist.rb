@@ -22,7 +22,6 @@ def new_song(name, genre)
     self.songs.last
   end
   
-  
   def songs
     song.all.select do |song|
       song.artist == self
