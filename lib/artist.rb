@@ -22,8 +22,8 @@ class Artist
 #     self.songs.last
 #   end
   
-  def songs(genre)
-    Song.all.select do |song|
+  def songs
+    song.all.select do |song|
       song.artist == self
       end
     end
