@@ -6,20 +6,20 @@ class Artist
   
   def initialize(name)
     @name = name
-   save 
-end
+    save 
+  end
 
-def save
-  @@all << self 
-end
+  def save
+    @@all << self 
+  end
 
-def self.all
-  @@all 
-end 
+  def self.all
+    @@all 
+  end 
 
-def new_song 
-  Song.new(self)
-end
+  def new_song 
+    Song.new(self)
+  end
 
 end
 
