@@ -1,6 +1,6 @@
 class Appointments
   
-  
+  attr_accessor :name
   @@all = []
   def initialize()
     save
