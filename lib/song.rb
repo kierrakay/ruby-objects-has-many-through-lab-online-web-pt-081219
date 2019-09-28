@@ -18,5 +18,9 @@ end
     @@all 
   end 
   
+  def artist 
+    @artist 
+  end
+  
 end
 
