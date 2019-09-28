@@ -22,10 +22,6 @@ class Artist
   def new_song(name)
     Song.new(name,self)
   end
-  
-  def songs
-    songs.all.self.each do |song|
-      songs.new(name)
-  end
+
   
 end
