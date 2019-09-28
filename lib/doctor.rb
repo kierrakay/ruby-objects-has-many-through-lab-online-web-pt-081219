@@ -22,7 +22,7 @@ class Doctor
   end
   
   def appointments 
-    Appointment.all.sfind do |appointment|
+    Appointment.all.find do |appointment|
       appointment.doctor == self 
     end
   end 
