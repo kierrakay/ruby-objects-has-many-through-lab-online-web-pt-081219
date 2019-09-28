@@ -24,9 +24,11 @@ class Artist
   end
   
   def songs
-    songs.new.each do |song|
+    songs.all.self.each do |song|
       songs.new(name)
   end
   
   def genres 
+    genres.all.self.each do |genre|
+      genre.new(name)
 end
