@@ -27,5 +27,6 @@ class Doctor
   end 
   
   def patients(patient)
-    appointments.self.collect do |validates_acceptance_of
+    appointments.self.collect do |appointment|
+      
     
