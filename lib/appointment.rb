@@ -18,6 +18,7 @@ class Appointment
     @@all
   end 
   
-  def appointments
+  def patients
+    
   
 end
