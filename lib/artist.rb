@@ -25,4 +25,4 @@ class Artist
   def songs
 
 end
-
+end
