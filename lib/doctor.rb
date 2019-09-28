@@ -30,7 +30,7 @@ class Doctor
   end 
   
   def patients
-    appointments.self.collect do |appointment|
+    Appointments.self.collect do |appointment|
       appointment.patients 
     end
   end
