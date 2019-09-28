@@ -28,7 +28,4 @@ class Artist
       songs.new(name)
   end
   
-  def genres 
-    genres.all.self.each do |genre|
-      genre.new(name)
 end
