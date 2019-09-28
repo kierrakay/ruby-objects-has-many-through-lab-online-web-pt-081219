@@ -22,6 +22,7 @@ class Appointment
     self.patients
   end
   
-  def docotor
-  
+  def doctors
+    self.doctors
+  end
 end
